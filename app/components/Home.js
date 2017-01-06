@@ -3,8 +3,10 @@ import React from 'react';
 class Home extends React.Component {
   render() {
     return (
-      <div className='alert alert-info'>
-        Hello from Home Component
+      <div className="btn-group" role="group" aria-label="...">
+        <button type="button" className="btn btn-primary">Left</button>
+        <button type="button" className="btn btn-success">Middle</button>
+        <button type="button" className="btn btn-warning">Right</button>
       </div>
     );
   }
